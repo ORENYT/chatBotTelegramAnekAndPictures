@@ -106,11 +106,11 @@ async def msg_main():
     await send_message(bot, anek, media)
 
 
-async def hi(ebanayalibanahuimnenadoetopustayaperemennayabezneenerabotaetsukablyat):
+async def hi(empty):
     await bot.send_message(chat_id=chat_id, text='Я cнова живу!')
 
 
-async def not_admin(ebanayalibanahuimnenadoetopustayaperemennayabezneenerabotaetsukablyat):
+async def not_admin(empty):
     await bot.send_message(chat_id=chat_id, text='Я слушаюсь только администраторов чатика!')
 
 
